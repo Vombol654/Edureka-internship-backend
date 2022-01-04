@@ -3,7 +3,7 @@ const locationsController = require('../Controllers/locations');
 const mealtypesController = require('../Controllers/mealtypes');
 const restaurantController = require('../Controllers/resturents');
 const userController = require('../Controllers/users');
-const menuItemsController = require('../Controllers/menuItems');
+const menuItemsController = require('../Controllers/menuitems');
 const paymentController = require('../Controllers/payments');
 
 const route = express.Router();
