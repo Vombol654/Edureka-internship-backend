@@ -4,7 +4,7 @@ const router = require('./Router/index');
 const cors = require('cors');
 
 const app = express();
-const port=8989;
+const port=process.env.PORT||8989;
 const hostname="localhost";
 const dburl = 'mongodb+srv://ananda_123:ananda_123@cluster0.1uqms.mongodb.net/zomato_clone?retryWrites=true&w=majority';
 
